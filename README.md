@@ -1,1 +1,1 @@
-TinDog Starting Files
+Bootstrap responsive website
