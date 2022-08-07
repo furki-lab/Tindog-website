@@ -1,2 +1,2 @@
 Bootstrap responsive website
-*http://tindogbootstrapwebsite.com/*
+*https://sparkling-tartufo-ff484c.netlify.app/*
