@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family:"Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;   
+    text-align: left;
+}
+h2 {
+
+    font-family: "Montserrat";
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+h3{
+    font-family: "Montserrat";
+    font-weight: bold;
+    margin: 10px;
+}
+
+/* NAVİGATİON BAR */
+
+   .navbar{
+    padding-bottom: 4.5rem;
+    
+   }
+
+ .navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+ .nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: "montserrat";
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+/* DOWNLOAD BUTTONS */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+    font-size: 1.5rem;
+}
+
+/* TİTLE İMAGE */
+
+
+
+.title-image{
+    width: 25%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+/* FEATURES */
+
+#features{
+    padding: 7% 15%;
+    position: relative;
+    background-color: white;
+    
+}   
+.feature-box{
+    padding: 5%;
+}
+ .icon{
+    color: #ef8172;
+ }
+
+ .icon:hover{
+    color: #ff4c68;
+ }
+
+ /* TESTİMONİALS */
+
+ #testimonials{
+    
+    background-color: #ef8172;
+    color: #fff;
+ }
+
+ .carousel-item{
+    padding: 7% 15%;
+ }
+
+ .testimonial-image{
+    width: 10%;
+    margin: 20px;
+    border-radius: 100%;
+ }
+
+ #press{
+    background-color: #ef8172;
+    padding-bottom: 20px;
+
+ }
+ .press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+ }
+
+ /* PRİCİNG */
+
+ #pricing{
+    padding: 100px;
+ }
+
+
+
+
+ /* Call to Action */
+ 
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    margin-top: 50px;
+}
+.cta-title{
+    color: white;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+.cta-btn{
+    margin: 50px 15px;
+}
+
+#footer{
+    padding: 7% 15%;
+
+}
+.socials{
+    margin: 10px;
+    
+}
+.socials:hover{
+    color: #ff4c68;
+    cursor: pointer;
+}
+
+
+ @media (max-width:1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+ }
+ 
